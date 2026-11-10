@@ -1,0 +1,15 @@
+{
+  "name": "noir-motors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Noir Motors — automotive concept website",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check script.js && node --check scripts/sync-lenis.js",
+    "postinstall": "node scripts/sync-lenis.js"
+  },
+  "dependencies": {
+    "lenis": "1.3.27"
+  }
+}

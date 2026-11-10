@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111313">
+  <meta name="description" content="Noir Motors. Um olhar sobre performance, design e exclusividade. Conheça o conceito NM-01.">
+  <title>Noir Motors — Designed to move</title>
+  <script>
+    document.documentElement.classList.add('is-loading');
+    window.noirLoaderFallback = setTimeout(() => {
+      document.documentElement.classList.remove('is-loading');
+      document.querySelector('main')?.removeAttribute('inert');
+      document.querySelector('.site-footer')?.removeAttribute('inert');
+      document.querySelector('.loader')?.remove();
+      window.dispatchEvent(new Event('noir:ready'));
+    }, 8000);
+  </script>
+  <link rel="icon" type="image/svg+xml" href="assets/noir-motors-symbol.svg">
+  <link rel="stylesheet" href="assets/vendor/lenis/lenis.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/vendor/lenis/lenis.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" role="status" aria-label="Carregando Noir Motors">
+    <div class="loader-center">
+      <img class="loader-logo" src="assets/noir-motors-logo-compact.svg" alt="Noir Motors" width="655" height="340">
+      <span class="loader-percentage" aria-hidden="true"><span id="load-percentage">0</span><span class="percentage-sign">%</span></span>
+    </div>
+  </div>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <svg class="clip-definitions" aria-hidden="true"><defs><clipPath id="hero-shape" clipPathUnits="objectBoundingBox"><path d="M .034 0 H .758 Q .792 0 .792 .06 V .19 Q .792 .25 .826 .25 H .966 Q 1 .25 1 .31 V .70 Q 1 .76 .966 .76 H .83 Q .795 .76 .795 .82 V .94 Q .795 1 .76 1 H .405 Q .367 1 .367 .945 Q .367 .89 .33 .89 H .034 Q 0 .89 0 .83 V .06 Q 0 0 .034 0 Z"/></clipPath></defs></svg>
+  <main id="main">
+    <section class="showcase" aria-label="Noir Motors NM-01">
+      <header class="header">
+        <a class="wordmark" href="#" aria-label="Noir Motors, início"><img src="assets/noir-motors-logo-compact.svg" alt="Noir Motors" width="655" height="340"></a>
+        <nav class="navigation" aria-label="Navegação principal">
+          <a href="#models">MODELS</a><a href="#design">DESIGN</a><a href="#performance">PERFORMANCE</a><a href="#brand">THE BRAND</a>
+        </nav>
+        <button class="drive-button" type="button" aria-disabled="true"><span class="button-label">BOOK A DRIVE</span><span class="drive-arrow" aria-hidden="true">↗</span></button>
+      </header>
+      <div class="hero-stage">
+        <p class="manifesto">A FUSÃO ENTRE PERFORMANCE, DESIGN E EXCLUSIVIDADE.</p>
+        <div class="hero-visual"><img class="hero-studio" src="assets/hero-studio-empty.png" alt="" aria-hidden="true" fetchpriority="high" width="1774" height="887"><div class="hero-car-layer"><img src="assets/hero-car-cutout.png" alt="Conceito NM-01 em grafite, visto de trás em um estúdio com luz natural e reflexos no piso" fetchpriority="high" width="1774" height="887"></div><div class="hero-takes" aria-hidden="true"><div class="hero-take"><img src="assets/nm01-take-side.png" alt="" data-later-take loading="lazy" width="1672" height="941"></div><div class="hero-take"><img src="assets/nm01-take-front.png" alt="" data-later-take loading="lazy" width="1672" height="941"></div></div></div>
+        <div class="hero-copy"><h1 aria-label="Designed to move"><span class="headline-line"><span>DESIGNED</span></span><span class="headline-line"><span>TO MOVE</span></span></h1></div>
+        <div class="detail-image" role="group" aria-label="Takes do Noir NM-01">
+          <div class="take-slide is-active"><img src="assets/nm01-take-front.png" alt="Vista frontal em três quartos do Noir NM-01" width="1672" height="941"></div>
+          <div class="take-slide" aria-hidden="true"><img src="assets/nm01-take-side.png" alt="Vista lateral do Noir NM-01" data-later-take loading="lazy" width="1672" height="941"></div>
+          <div class="take-slide" aria-hidden="true"><img src="assets/nm01-take-rear.png" alt="Vista traseira do Noir NM-01" data-later-take loading="lazy" width="1672" height="941"></div>
+          <div class="take-slide" aria-hidden="true"><img src="assets/nm01-take-overhead.png" alt="Vista superior em três quartos do Noir NM-01" data-later-take loading="lazy" width="1672" height="941"></div>
+          <button class="takes-pause" type="button" aria-label="Pausar takes do carro" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+        </div>
+        <button class="model-link" type="button" aria-disabled="true"><span>NM-01</span><span class="round-arrow" aria-hidden="true">⟶</span></button>
+        <div class="performance-note"><h2>FOCO EM<br>PERFORMANCE</h2><span class="blue-line"></span><p>Potência, controle e precisão<br>em cada detalhe.</p></div>
+      </div>
+    </section>
+    <section class="collection" id="models" aria-labelledby="collection-title">
+      <svg class="clip-definitions" aria-hidden="true"><defs><clipPath id="vehicle-shape" clipPathUnits="objectBoundingBox"><path d="M .05 0 H .78 Q .83 0 .83 .055 V .12 Q .83 .175 .885 .175 H .95 Q 1 .175 1 .23 V .945 Q 1 1 .95 1 H .05 Q 0 1 0 .945 V .055 Q 0 0 .05 0 Z"/></clipPath></defs></svg>
+      <div class="collection-heading">
+        <h2 id="collection-title" aria-label="Find your next drive"><span class="collection-title-line"><span>Find your</span></span><span class="collection-title-line"><em>next drive.</em></span></h2>
+      </div>
+      <div class="collection-grid">
+        <article class="vehicle-card" aria-labelledby="porsche-title">
+          <div class="vehicle-surface">
+            <div class="vehicle-art vehicle-art--porsche"><img class="vehicle-backdrop" src="assets/collection-studio-empty.png" alt="" aria-hidden="true" loading="lazy" width="1536" height="1024"><div class="vehicle-car-layer"><img src="assets/collection-cars-cutout.png" alt="Porsche 911 laranja em estúdio de concreto com piso reflexivo" loading="lazy" width="1536" height="1024"></div></div>
+            <div class="vehicle-caption"><h3 id="porsche-title">Porsche 911 Carrera</h3><p>Category: Sports Coupe</p></div>
+            <svg class="vehicle-outline" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><path d="M 50 1 H 780 Q 830 1 830 55 V 120 Q 830 175 885 175 H 950 Q 999 175 999 230 V 945 Q 999 999 950 999 H 50 Q 1 999 1 945 V 55 Q 1 1 50 1 Z"/></svg>
+          </div>
+          <button class="vehicle-details" type="button" data-vehicle="porsche" aria-label="Ver Porsche 911 Carrera"><span class="grid-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span></button>
+        </article>
+        <article class="vehicle-card" aria-labelledby="mercedes-title">
+          <div class="vehicle-surface">
+            <div class="vehicle-art vehicle-art--mercedes"><img class="vehicle-backdrop" src="assets/collection-studio-empty.png" alt="" aria-hidden="true" loading="lazy" width="1536" height="1024"><div class="vehicle-car-layer"><img src="assets/collection-cars-cutout.png" alt="Mercedes-AMG GT prateada em estúdio de concreto com piso reflexivo" loading="lazy" width="1536" height="1024"></div></div>
+            <div class="vehicle-caption"><h3 id="mercedes-title">Mercedes-AMG GT</h3><p>Category: Grand Tourer</p></div>
+            <svg class="vehicle-outline" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><path d="M 50 1 H 780 Q 830 1 830 55 V 120 Q 830 175 885 175 H 950 Q 999 175 999 230 V 945 Q 999 999 950 999 H 50 Q 1 999 1 945 V 55 Q 1 1 50 1 Z"/></svg>
+          </div>
+          <button class="vehicle-details" type="button" data-vehicle="mercedes" aria-label="Ver Mercedes-AMG GT"><span class="grid-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span></button>
+        </article>
+        <button class="explore-collection" type="button" data-collection><span class="explore-arrow" aria-hidden="true">⟶</span><span>EXPLORE ALL<br>VEHICLES</span></button>
+      </div>
+    </section>
+    <section class="experience" id="design" aria-labelledby="experience-title">
+      <div class="editorial-container">
+        <h2 id="experience-title">Muito além <em>de dirigir.</em></h2>
+        <div class="experience-grid">
+          <figure class="experience-image">
+            <img src="assets/noir-blue-editorial.png" alt="Grand tourer grafite sob um recorte de luz azul em estúdio" loading="lazy" width="1536" height="1024">
+            <figcaption>O essencial. <em>Elevado.</em></figcaption>
+          </figure>
+          <div class="experience-column">
+            <a class="experience-card experience-card--light" href="#models">
+              <div class="experience-card-top"><div class="experience-crop experience-crop--light"><img src="assets/noir-blue-editorial.png" alt="Detalhe da luz e das linhas do grand tourer" loading="lazy" width="1536" height="1024"></div><span class="editorial-arrow" aria-hidden="true">↗</span></div>
+              <div><h3>Escolhas com intenção.</h3><p>Um olhar atento ao que torna cada carro único. Do primeiro traço ao último detalhe.</p></div>
+              <span class="experience-card-link">CONHEÇA A COLEÇÃO <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="experience-strip"><span class="strip-mark" aria-hidden="true">↗</span><span>Design que desperta o olhar.</span></div>
+          </div>
+          <div class="experience-column">
+            <a class="experience-card experience-card--dark" href="#performance">
+              <div class="experience-card-top"><div class="experience-crop experience-crop--wheel"><img src="assets/noir-pearl-profile.png" alt="Detalhe da roda do cupê perolado" loading="lazy" width="1774" height="887"></div><span class="editorial-arrow" aria-hidden="true">↗</span></div>
+              <div><h3>O próximo encontro.</h3><p>Encontre a forma, a presença e a personalidade que fazem sentido para você.</p></div>
+              <span class="experience-card-link">SINTA OS DETALHES <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="experience-strip"><div class="strip-cars" aria-hidden="true"><img src="assets/nm01-take-front.png" alt="" loading="lazy" width="1672" height="941"><img src="assets/noir-blue-editorial.png" alt="" loading="lazy" width="1536" height="1024"><img src="assets/noir-pearl-profile.png" alt="" loading="lazy" width="1774" height="887"></div><span>Presenças que ficam.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="performance-frame">
+    <section class="performance-editorial" id="performance" aria-labelledby="performance-editorial-title">
+      <h2 class="sr-only" id="performance-editorial-title">Design em cada detalhe</h2>
+      <div class="performance-scene"><img class="performance-panorama" src="assets/pearl-studio-empty.png" alt="" aria-hidden="true" loading="lazy" width="1774" height="887"><div class="performance-car-layer"><img src="assets/pearl-car-cutout.png" alt="Cupê conceito perolado de perfil, com rodas grafite e teto preto em estúdio" loading="lazy" width="1774" height="887"></div></div>
+      <div class="performance-controls">
+      <div class="performance-detail" aria-live="polite" aria-atomic="true">
+        <div class="wheel-detail"><img src="assets/noir-pearl-profile.png" alt="Detalhe das rodas grafite e do acabamento perolado" loading="lazy" width="1774" height="887"></div>
+        <h3 id="detail-title">O detalhe muda tudo.</h3>
+        <p id="detail-description">Rodas grafite e um toque de vermelho. O contraste que completa a presença.</p>
+      </div>
+      <button class="car-hotspot car-hotspot--rear is-selected" type="button" data-detail="wheels" aria-label="Explorar rodas e acabamento" aria-pressed="true"><span aria-hidden="true">+</span></button>
+      <button class="car-hotspot car-hotspot--roof" type="button" data-detail="silhouette" aria-label="Explorar a silhueta do carro" aria-pressed="false"><span aria-hidden="true">+</span></button>
+      <button class="car-hotspot car-hotspot--front" type="button" data-detail="front" aria-label="Explorar o desenho frontal" aria-pressed="false"><span aria-hidden="true">+</span></button>
+      <p class="performance-hint">UM NOVO OLHAR A CADA DETALHE <span aria-hidden="true">↗</span></p>
+      </div>
+    </section>
+    </div>
+
+    <section class="brand-editorial" id="brand" aria-labelledby="brand-editorial-title">
+      <h2 class="sr-only" id="brand-editorial-title">A visão por trás da Noir Motors</h2>
+      <div class="brand-editorial-grid editorial-container">
+        <figure class="direction-portrait"><img src="assets/noir-direction-portrait.png" alt="Retrato editorial de uma mulher de cabelos escuros e blazer preto, representando a direção da Noir Motors" loading="lazy" width="1120" height="1400"></figure>
+        <div class="direction-statement">
+          <blockquote>Não é sobre ir mais longe.<br><em>É sobre sentir mais.</em></blockquote>
+          <p>Acreditamos que um carro deve despertar algo antes mesmo da partida. Na beleza de uma linha, na intenção de uma escolha e na liberdade de seguir o próprio caminho.</p>
+          <div class="direction-signature"><img src="assets/noir-motors-symbol.svg" alt="" aria-hidden="true" loading="lazy" width="822" height="268"><div><strong>Direção Noir Motors</strong><span>Uma visão sobre movimento.</span></div></div>
+          <a class="direction-link" href="#models">ENCONTRE O SEU PRÓXIMO CAPÍTULO <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="footer-frame">
+    <footer class="site-footer" id="footer" aria-label="Rodapé Noir Motors">
+      <div class="footer-main editorial-container">
+        <div class="footer-intro">
+          <a href="#models" aria-label="Conhecer a coleção Noir Motors"><img src="assets/noir-blue-editorial.png" alt="Grand tourer grafite em luz azul" loading="lazy" width="1536" height="1024"></a>
+          <p>Carros que despertam o olhar.<br>Caminhos que ficam na memória.<br>Encontre o seu próximo movimento.</p>
+        </div>
+        <nav class="footer-navigation" aria-label="Navegação do rodapé">
+          <div><h2>Explore</h2><a href="#models">A coleção</a><a href="#design">Design</a><a href="#performance">Performance</a></div>
+          <div><h2>A Noir</h2><a href="#brand">Nossa visão</a><a href="#design">A experiência</a><a href="#main">Designed to move</a></div>
+          <div><h2>Seu próximo passo</h2><a href="#models">Encontre seu carro</a><a href="#performance">Explore os detalhes</a><a href="#brand">Conheça a direção</a></div>
+        </nav>
+      </div>
+      <div class="footer-meta editorial-container"><p>© <span id="footer-year">2026</span> Noir Motors</p><a href="#main">Voltar ao topo <span aria-hidden="true">↗</span></a></div>
+      <div class="footer-wordmark" aria-hidden="true"><span>NOIR</span></div>
+    </footer>
+  </div>
+  <dialog class="vehicle-dialog" aria-labelledby="vehicle-dialog-title" data-lenis-prevent>
+    <button class="vehicle-dialog-close" type="button" aria-label="Fechar coleção">×</button>
+    <p class="collection-eyebrow">THE NOIR MOTORS COLLECTION</p>
+    <h2 id="vehicle-dialog-title">Find your next drive</h2>
+    <div class="collection-overview">
+      <button type="button" data-vehicle="porsche"><span class="overview-photo vehicle-art vehicle-art--porsche"><img src="assets/noir-collection.png" alt="Porsche 911 laranja" loading="lazy" width="1536" height="1024"></span><span>Porsche 911 Carrera <span aria-hidden="true">↗</span></span><small>Sports Coupe</small></button>
+      <button type="button" data-vehicle="mercedes"><span class="overview-photo vehicle-art vehicle-art--mercedes"><img src="assets/noir-collection.png" alt="Mercedes-AMG GT prateada" loading="lazy" width="1536" height="1024"></span><span>Mercedes-AMG GT <span aria-hidden="true">↗</span></span><small>Grand Tourer</small></button>
+    </div>
+    <div class="vehicle-detail-view" hidden>
+      <div class="dialog-car-photo vehicle-art"><img src="assets/noir-collection.png" alt="" width="1536" height="1024"></div>
+      <p class="dialog-car-category"></p>
+      <button class="back-to-collection" type="button">← VOLTAR À COLEÇÃO</button>
+    </div>
+  </dialog>
+</body>
+</html>
