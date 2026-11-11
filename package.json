@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "check": "node --check server.js && node --check script.js && node --check scripts/sync-lenis.js",
+    "build": "node scripts/build.js",
+    "check": "node --check server.js && node --check script.js && node --check scripts/sync-lenis.js && node --check scripts/build.js",
     "postinstall": "node scripts/sync-lenis.js"
   },
   "dependencies": {

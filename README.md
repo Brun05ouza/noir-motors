@@ -20,6 +20,14 @@ As logos SVG fornecidas ficam em `assets/noir-motors-logo.svg` e `assets/noir-mo
 
 Os quatro takes enviados ficam em `assets/nm01-take-*.png`. O quadro menor alterna as imagens a cada 5,5 segundos; o hero alterna as vistas lateral e frontal com a composição original a cada 11 segundos. A sequência inicia após a abertura, possui pausa manual, pausa fora da tela/aba e não inicia automaticamente com movimento reduzido. As imagens de takes posteriores não bloqueiam o preloader.
 
+## Publicar na Vercel
+
+Envie as alterações ao Git e importe o repositório na Vercel. Use a raiz do repositório como diretório do projeto e mantenha o preset **Other**.
+
+O arquivo `vercel.json` configura `npm run build` e publica a pasta `dist/`, que contém o HTML, o CSS, o JavaScript e os assets. O Lenis já está versionado em `assets/`, então o deploy dispensa a instalação de dependências e a configuração de variáveis de ambiente.
+
+Para gerar os arquivos de produção localmente, execute `npm run build`.
+
 ## Capítulos editoriais
 
 Após a coleção, o fundo escuro termina em cantos arredondados sobre um capítulo marfim com cards de experiência. A seção de performance apresenta um cupê conceito perolado com três pontos interativos para explorar recortes e textos de design. O capítulo da marca combina um retrato feminino editorial e a visão da direção Noir Motors. Os links Design, Performance e The Brand no header levam a essas seções.
